@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: tomato;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #555;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.score-board{
+    margin: 20px auto;
+    border: 5px solid white;
+    border-radius: 5px;
+    text-align: center;
+    width: 400px;
+    color: white;
+    padding: 15px 20px;
+    height: 200px;
+}
+.badge{
+    background-color: #555;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 200px;
+    border-radius: 5px;
+}
+#user-label{
+    position: relative;
+    left: -180px;
+    top: 40px;
+}
+#comp-label{
+    position: relative;
+    right: -330px;
+    top: -20px;
+}
+#user-score{
+    position: relative;
+    bottom: 100px;
+    font-size: 100px;
+    padding-right: 15px;
+}
+#comp-score{
+    position: relative;
+    bottom: 100px;
+    font-size: 100px;
+    padding-left: 15px;
+}
+#puntos{
+    position: relative;
+    bottom: 100px;
+    font-size: 100px;
+    
+}
+.result{
+    margin-top: 50px;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.choices{
+    margin: 50px 0;
+    text-align: center;
+}
+.choice{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 0 30px;
+    border-radius: 50%;
+    border: 6px solid white;
+    transition: all .2s ease;
+}
+.choice img{
+    height: 100%;
+    width: 100%;
+}
+.choice:hover{
+    cursor: pointer;
+    border-color: greenyellow;
+}
+#action-message{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
